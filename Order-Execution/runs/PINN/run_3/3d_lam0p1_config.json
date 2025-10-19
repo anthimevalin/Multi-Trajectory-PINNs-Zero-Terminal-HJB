@@ -1,0 +1,44 @@
+{
+  "T": 5.0,
+  "ann_activation_str": "tanh",
+  "ann_fourier_emb": null,
+  "ann_hidden_dim": [
+    500,
+    500,
+    500
+  ],
+  "ann_in_dim": 3,
+  "ann_out_dim": 1,
+  "ann_periodicity": null,
+  "ann_reparam": false,
+  "ann_str": "MLP",
+  "dim": 3,
+  "kappa": 0.1,
+  "lam": 0.1,
+  "loss_str": "PINN",
+  "n_bc": 5000,
+  "n_term": 5000,
+  "num_epochs": 55000,
+  "pts_num": 30000,
+  "rebal": {
+    "ema_beta": 0.9,
+    "every": 5000,
+    "power": 0.3,
+    "start_epoch": 500,
+    "w_clip": [
+      0.1,
+      2.0
+    ]
+  },
+  "s_range": [
+    10.0,
+    100.0
+  ],
+  "seed": 43,
+  "sigma": 0.1,
+  "workdir": "/content/runs/pinn_oe",
+  "x_range": [
+    -10.0,
+    10.0
+  ]
+}

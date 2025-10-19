@@ -1,0 +1,57 @@
+Original Space Error Statistics:
+  Mean Absolute Error: 0.528296
+  Max Absolute Error: 12.503879
+  Mean Relative Error: 0.310623
+  Max Relative Error: 76.957444
+  L2 norm (RMSE): 1.359894
+  L-infinity norm (sup): 12.503879
+
+Arcsinh-Space Error Statistics:
+  Mean Arcsinh Absolute Error: 0.106784
+  Max Arcsinh Absolute Error: 0.868493
+  Mean Arcsinh Relative Error: 0.269809
+  Max Arcsinh Relative Error: 76.946558
+  L2 norm (RMSE, arcsinh): 0.181672
+  L-infinity norm (sup, arcsinh): 0.868493
+
+== asinh(|error|) stats (shared scaling) ===
+       MTPINN-λ-curr: mean=0.328649  max=3.220781
+
+=== Inventory comparison ===
+     MTPINN-λ-curr | RMSE=0.006102  final mean=0.020983  std=0.001196  max|final|=0.021857
+
+=== Error Metrics ===
+Inventory RMSE (over all times & paths): 0.006102
+
+=== |X_T| stats by model ===
+     MTPINN-λ-curr: mean=0.021078  std=0.000842  p95=0.022307  max=0.024290  P(|X_T|≤ε)=1.000
+
+=== Trading Rate Statistics ===
+$L^2$ norm = 0.08268072123434377
+Trading Rate RMSE (over all times & paths): 0.149055
+
+=== Value Function Error along Paths (Γ) ===
+Global RMSE (L2): 0.083084
+Global L-infinity: 0.165335
+Global MAE: 0.074841
+Per-path:  RMSE (L2) | L∞ (sup) | MAE | L2 time-integral
+  Path  1: 0.075326 | 0.130505 | 0.068318 | 0.041888
+  Path  2: 0.097029 | 0.165335 | 0.086954 | 0.053956
+  Path  3: 0.074968 | 0.126762 | 0.069249 | 0.041689
+
+
+
+== BC & Terminal stats ==
+bc/violation_rate: 0.014573
+bc/mean_hinge: 0.000784
+bc/p95_hinge: 0.000000
+term/mean: -0.003976
+term/std: 0.127527
+term/max: 0.220982
+
+== Symmetry stats (rel) ==
+mean: 0.283156
+std: 0.455801
+p95: 1.543135
+max: 2.000000
+violation_rate(|E|>tol): 0.715964

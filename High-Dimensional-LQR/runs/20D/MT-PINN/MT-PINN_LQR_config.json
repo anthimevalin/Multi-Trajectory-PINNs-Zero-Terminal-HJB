@@ -1,0 +1,113 @@
+{
+  "T": 1.0,
+  "ann_activation_str": "tanh",
+  "ann_fourier_emb": null,
+  "ann_hidden_dim": [
+    128,
+    128,
+    128
+  ],
+  "ann_in_dim": 21,
+  "ann_out_dim": 1,
+  "ann_periodicity": null,
+  "ann_reparam": false,
+  "ann_str": "MLP",
+  "loss_str": "PINN",
+  "n_term_zero": 1000,
+  "num_epochs": 50000,
+  "pts_num": 30000,
+  "rebal": {
+    "ema_beta": 0.9,
+    "every": 5000,
+    "power": 0.3,
+    "start_epoch": 500,
+    "w_clip": [
+      0.1,
+      5.0
+    ]
+  },
+  "seed": 42,
+  "workdir": "/content/runs/pinn_LQR",
+  "x_ranges": [
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      2
+    ]
+  ]
+}

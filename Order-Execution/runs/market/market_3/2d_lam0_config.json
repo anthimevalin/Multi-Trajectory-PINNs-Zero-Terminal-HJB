@@ -1,0 +1,47 @@
+{
+  "T": 0.3076923076923077,
+  "T_list": [
+    0.015384615384615385,
+    0.03076923076923077,
+    0.07692307692307693,
+    0.15384615384615385,
+    0.23076923076923078,
+    0.3076923076923077
+  ],
+  "ann_activation_str": "tanh",
+  "ann_fourier_emb": null,
+  "ann_hidden_dim": [
+    32,
+    32,
+    32
+  ],
+  "ann_in_dim": 2,
+  "ann_out_dim": 1,
+  "ann_periodicity": null,
+  "ann_reparam": false,
+  "ann_str": "MLP",
+  "dim": 2,
+  "kappa": 0.2,
+  "lam": 0.0,
+  "loss_str": "PINN",
+  "n_X": 200,
+  "n_term_zero": 2000,
+  "num_epochs": 20000,
+  "pts_num": 30000,
+  "rebal": {
+    "ema_beta": 0.9,
+    "every": 5000,
+    "power": 0.1,
+    "start_epoch": 500,
+    "w_clip": [
+      0.1,
+      5.0
+    ]
+  },
+  "seed": 42,
+  "traj_Ndt": 50,
+  "x_range": [
+    -1.0,
+    1.0
+  ]
+}
