@@ -1,0 +1,5 @@
+# Ignore stock data
+Order-Execution/stock_data/
+*.csv
+*.zst
+*.parquet
