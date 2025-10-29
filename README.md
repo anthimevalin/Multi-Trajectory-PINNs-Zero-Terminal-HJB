@@ -25,6 +25,8 @@ management.
 │   ├── loading_helper.py           # Flax model construction and checkpoint loading
 │   ├── plot_helper.py              # Utilities for loss/value function visualisation
 │   └── runs/                       # Saved configs, parameters, and histories
+│   └── evaluation.ipynb            # Evaluation of model performances 
+
 ├── Order-Execution/
 │   ├── Models/                     # Training notebooks for 2D/3D curricula
 │   ├── compute_helper.py           # GBM path simulation & value/trading trajectories
@@ -32,6 +34,9 @@ management.
 │   ├── plot_helper.py              # Loss curves, value plots, and diagnostics
 │   ├── market_eval.py              # Tools for real market data evaluation windows
 │   └── runs/                       # Saved experiments (synthetic + market models)
+│   └── general_evaluation.ipynb    # General evaluation of model performances for optimal execution application for synthetic and real market backtest experiment
+│   └── market_eval_demo.ipynb      # Real market backtest setup and specific results
+
 └── requirements.txt                # Python dependencies
 ```
 
@@ -44,7 +49,7 @@ be consumed with the `load_model_and_history` helper provided in each folder.
 
 1. **Clone the repository and enter it:**
    ```bash
-   git clone https://github.com/<your-org>/Multi-Trajectory-PINNs-Zero-Terminal-HJB.git
+   git clone [(https://github.com/anthimevalin/Multi-Trajectory-PINNs-Zero-Terminal-HJB.git)]
    cd Multi-Trajectory-PINNs-Zero-Terminal-HJB
    ```
 2. **Create an environment** (Python 3.10+ recommended) and install
@@ -56,9 +61,9 @@ be consumed with the `load_model_and_history` helper provided in each folder.
    ```
 3. **Open the evaluation notebooks** at the repository root to reproduce the
    reported figures:
-   * `High-Dimensional-LQR/general_evaluation.ipynb` – synthetic benchmark.
+   * `High-Dimensional-LQR/general_evaluation.ipynb` – synthetic benchmark for LQR application.
    * `Order-Execution/general_evaluation.ipynb` – synthetic and real-market
-     analysis.
+     analysis for optimal execution application.
    * `Order-Execution/market_eval_demo.ipynb` – SPY case study with cost,
      variance, and trading diagnostics.
 
